@@ -89,7 +89,7 @@ body .hero .div-image {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-image: url(images/IMG-20221023-WA0008.jpg);
+  background-image: url(./images/my-photo.jpg);
   background-size: 200%;
   background-position: 10% 60%;
 }
@@ -148,7 +148,7 @@ body .section-2 .div-1 {
   text-shadow: 1px 3px 0 #ffffff, 1px 13px 5px #aba8a8;
 }
 body .section-2 .div-1:hover {
-  background-image: url(images/Robin.png);
+  background-image: url(./images/Robin.png);
 }
 body .section-2 .div-1:hover h4 {
   display: none;
@@ -160,7 +160,7 @@ body .section-2 .div-5 {
   text-shadow: 1px 3px 0 #ffffff, 1px 13px 5px #aba8a8;
 }
 body .section-2 .div-5:hover {
-  background-image: url(images/ender.jpg);
+  background-image: url(./images/ender.jpg);
 }
 body .section-2 .div-5:hover h4 {
   display: none;
@@ -172,7 +172,7 @@ body .section-2 .div-6 {
   text-shadow: 1px 3px 0 #ffffff, 1px 13px 5px #aba8a8;
 }
 body .section-2 .div-6:hover {
-  background-image: url(images/plataform.jpg);
+  background-image: url(./images/plataform.jpg);
 }
 body .section-2 .div-6:hover h4 {
   display: none;
@@ -268,7 +268,7 @@ body footer i:hover {
 }
 @media screen and (max-width: 768px) {
   body header {
-    justify-content: center;
+    align-content: flex-start;
   }
   body header nav {
     display: none;
