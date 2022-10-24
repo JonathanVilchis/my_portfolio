@@ -97,6 +97,10 @@ body .hero .div-image img {
 body .hero h1 {
   font-size: clamp(2rem, 6vw, 6rem);
 }
+body .hero h1 span {
+  color: white;
+  text-shadow: 5px 9px 2px #000000;
+}
 body .section {
   display: flex;
   justify-content: space-evenly;
@@ -107,6 +111,7 @@ body .section {
 }
 body .section-1 {
   width: 50%;
+  min-width: 280px;
   padding: 2rem;
   background: white;
   display: flex;
@@ -128,6 +133,7 @@ body .section-2 {
   justify-content: center;
   flex-wrap: wrap;
   width: 80%;
+  min-width: 280px;
   background: white;
 }
 body .section-2 div {
@@ -154,6 +160,26 @@ body .section-2 .div-1:hover h4 {
 body .section-2 .div-1:hover img {
   display: block;
 }
+body .section-2 .div-2 img {
+  width: 100%;
+  display: none;
+}
+body .section-2 .div-2:hover h4 {
+  display: none;
+}
+body .section-2 .div-2:hover img {
+  display: block;
+}
+body .section-2 .div-3 img {
+  width: 112%;
+  display: none;
+}
+body .section-2 .div-3:hover h4 {
+  display: none;
+}
+body .section-2 .div-3:hover img {
+  display: block;
+}
 body .section-2 .div-5 img {
   width: 100%;
   display: none;
@@ -177,16 +203,20 @@ body .section-2 .div-6:hover img {
 body .section-3 {
   display: block;
   width: 60%;
+  min-width: 280px;
   padding: 3rem;
   background: white;
   font-size: 2rem;
+}
+body .section-3 p {
+  line-height: 4rem;
 }
 body .section-4 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
-  min-width: 400px;
+  min-width: 350px;
   margin-bottom: 10rem;
   padding: 2rem;
   background: rgba(0, 0, 0, 0.8);
@@ -220,6 +250,9 @@ body .section-4 form textarea {
   font-size: 2rem;
   outline: none;
 }
+body .section-4 form textarea:hover {
+  box-shadow: 0px 0px 27px 8px rgba(255, 160, 41, 0.6);
+}
 body .section-4 form button {
   font-size: 1.8rem;
   padding: 1rem;
@@ -227,6 +260,9 @@ body .section-4 form button {
   background: orange;
   box-shadow: 3px 4px 0px 0px #8a2a21;
   cursor: pointer;
+}
+body .section-4 form button:hover {
+  box-shadow: 0px 0px 27px 8px rgba(255, 160, 41, 0.6);
 }
 body footer {
   display: flex;
